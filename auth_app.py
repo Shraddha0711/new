@@ -131,6 +131,7 @@ def create_user_profile(profile: UserProfile, token: str):
             "bio": profile.bio,
             "role": profile.role,
             "profile_pic_url": profile.profile_pic_url,
+            "connects": 100 # Default 100 connects
             "rating": 0.0,  # Default rating
             "no_of_people_rated": 0,  # Initially 0
             "verified_badge": False,  # Recruiters need to purchase verification
