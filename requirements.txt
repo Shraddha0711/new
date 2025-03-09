@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+firebase-admin
+python-dotenv
+python-multipart
+
+pymupdf  # for fitz (PyMuPDF)
+python-docx  # for handling DOCX files
+openai  # OpenAI API client
